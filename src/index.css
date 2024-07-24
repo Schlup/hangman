@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {}
+
+.btn {
+    @apply flex items-center justify-center aspect-square border-2 border-white bg-none text-2xl uppercase cursor-pointer text-white;
+}
+
+.btn.active {
+    @apply bg-blue-400 text-black;
+}
+
+.btn.inactive {
+    @apply opacity-30 cursor-not-allowed;
+}
+
+.btn:not(.inactive):hover,
+.btn:not(.inactive):focus {
+    @apply bg-cyan-400;
+}

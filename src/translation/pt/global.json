@@ -1,0 +1,11 @@
+{
+    "header": {
+        "message": "Bem vindo!"
+    },
+    "winner": {
+        "message": "Você venceu, recarregue a página para jogar novamente"
+    },
+    "loser": {
+        "message": "Boa tentativa, recarregue a página para jogar novamente"
+    }
+}

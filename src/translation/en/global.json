@@ -1,0 +1,11 @@
+{
+    "header": {
+        "message": "Welcome!"
+    },
+    "winner": {
+        "message": "You won, refresh to play again!"
+    },
+    "loser": {
+        "message": "Nice try, refresh to play again!"
+    }
+}
